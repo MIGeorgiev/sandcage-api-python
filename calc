@@ -20,32 +20,49 @@
         <?php
       //  if(isset($_POST["resul"])){$num1 = $_POST["num1"];
          
-         /*
+         
 
                   $action= $_POST["action"];
-                  $resul= $_POST["resul"];  
-                  $num1= $_POST["num1"];
-                  $num2= $_POST["num2"];
+                   
+                 
         
         if($action == "+") { 
-               
+            $num2= $_POST["num2"];
+            $num1= $_POST["num1"];
+             
 echo  $resul=$num1 + $num2;
 }
 elseif ($action == "-") {
+            $num1= $_POST["num1"];
+            $num2= $_POST["num2"];
+            
 echo $resul=$num1 - $num2;
 }
 elseif ($action == "*") {
+            $num1= $_POST["num1"];
+            $num2= $_POST["num2"];
+            
 echo $resul=$num1 * $num2;
 }
 elseif ($action == "/") {
-echo $resul=$num1 / $num2;
+            $num1= $_POST["num1"];
+            $num2= $_POST["num2"];
+            
+echo $resul=$num1/$num2;
 }
         
          
-          */
+     
         
         
-
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         ?>
